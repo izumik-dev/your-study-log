@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourStudyLog</title>
+    <meta name="description" content="YourStudyLogは、学習・タスク・時間管理を一つにまとめた学習管理サービスです。">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="inner header-inner">
+            <h1 class="logo">YourStudyLog</h1>
+
+            <nav class="nav">
+
+                <ul>
+                    <li><a href="#feature">特徴</a></li>
+                    <li><a href="#study-log">学習ログ</a></li>
+                    <li><a href="#dashboard">ダッシュボード</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="fv">
+            <div class="inner fv-inner">
+                <div class="fv-content">
+                    <p class="fv-subtitle">学習を、もっと続けやすく。</p>
+                    <h2 class="fv-title">
+                        タスク・時間・学習記録を<br>
+                        ひとつにまとめる。
+                    </h2>
+
+                    <p class="fv-text">
+                        YourStudyLogは、勉強を継続したい人のための
+                        学習管理サービスです。
+                    </p>
+
+                    <a href="#" class="btn">サービスの特徴を見る</a>
+                </div>
+                <div class="fv-img">
+                    <img src="img/fv-img.jpg" alt="筆記用具の写真">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="feature section" id="feature">
+            <div class="inner">
+                <div class="section-heading">
+                    <p class="section-subtitle">FEATURE</p>
+                    <h2 class="section-title">特徴</h2>
+                </div>
+
+                <div class="feature-list">
+                    <button class="feature-card active">
+                        <div class="feature-icon">📝</div>
+                        <h3 class="feature-title">タスク管理</h3>
+                    </button>
+
+
+                    <button class="feature-card">
+                        <div class="feature-icon">⏰</div>
+                        <h3 class="feature-title">集中タイマー</h3>
+                    </button>
+
+                    <button class="feature-card">
+                        <div class="feature-icon">📅</div>
+                        <h3 class="feature-title">学習カレンダー</h3>
+                    </button>
+
+                </div>
+
+                <div class="feature-detail active">
+                    <h3>📝 タスク管理</h3>
+
+                    <p>
+                        学習タスクを登録し、進捗状況をひと目で確認できます。
+                        やるべきことを整理することで、学習の抜け漏れを防ぎます。
+                    </p>
+
+                    <ul class="feature-detail-list">
+                        <li>✓ タスクの追加・編集</li>
+                        <li>✓ 優先度の設定</li>
+                        <li>✓ 完了状況の管理</li>
+                    </ul>
+                </div>
+
+                <div class="feature-detail">
+                    <h3>⏰ 集中タイマー</h3>
+
+                    <p>
+                        集中時間と休憩時間を管理しながら、
+                        効率よく学習を進めることができます。
+                        学習時間は自動で記録され、振り返りにも活用できます。
+                    </p>
+
+                    <ul class="feature-detail-list">
+                        <li>✓ ポモドーロタイマー対応</li>
+                        <li>✓ 学習時間の自動記録</li>
+                        <li>✓ 集中履歴の確認</li>
+                    </ul>
+                </div>
+
+                <div class="feature-detail">
+                    <h3>📅 学習カレンダー</h3>
+
+                    <p>
+                        毎日の学習記録をカレンダー形式で確認できます。
+                        継続状況が可視化されるため、学習習慣の定着をサポートします。
+                    </p>
+
+                    <ul class="feature-detail-list">
+                        <li>✓ 学習履歴の確認</li>
+                        <li>✓ 継続日数の可視化</li>
+                        <li>✓ 月ごとの振り返り</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="dashboard section" id="dashboard">
+            <div class="inner dashboard-inner">
+
+                <div class="dashboard-content">
+                    <p class="section-subtitle">DASHBOARD</p>
+                    <h2 class="section-title">学習を可視化するダッシュボード</h2>
+
+                    <p class="dashboard-text">
+                        学習時間・タスク・カレンダーをまとめて管理。
+                        勉強の継続をサポートします。
+                    </p>
+                </div>
+
+                <div class="dashboard-img">
+                    <img src="img/dashboard2.png" alt="ダッシュボード画面">
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="study-log section" id="study-log">
+            <div class="inner">
+
+                <div class="section-heading">
+                    <p class="section-subtitle">STUDY LOG</p>
+                    <h2 class="section-title">最近の学習記録</h2>
+                </div>
+
+                <div class="study-log-list">
+
+                    <article class="study-log-card fade-in">
+                        <img src="img/english.jpg" alt="英語の学習ノート">
+
+                        <div class="study-log-body">
+                            <p class="study-log-category">英語</p>
+                            <h3 class="study-log-title">
+                                英単語帳<br>
+                                3章まで復習
+                            </h3>
+                        </div>
+                    </article>
+
+                    <article class="study-log-card fade-in">
+                        <img src="img/math.jpg" alt="数学の問題集">
+
+                        <div class="study-log-body">
+                            <p class="study-log-category">数学</p>
+                            <h3 class="study-log-title">
+                                数ⅠA 二次関数の<br>
+                                問題演習
+                            </h3>
+                        </div>
+                    </article>
+
+                    <article class="study-log-card fade-in">
+                        <img src="img/history.jpg" alt="世界史の参考書">
+
+                        <div class="study-log-body">
+                            <p class="study-log-category">世界史</p>
+                            <h3 class="study-log-title">
+                                共通テスト対策<br>
+                                古代文明まとめ
+                            </h3>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="review section">
+            <div class="inner">
+
+                <div class="section-heading">
+                    <p class="section-subtitle">SUCCESS STORY</p>
+                    <h2 class="section-title">利用者の学習事例</h2>
+                </div>
+
+                <div class="slider">
+
+                    <button class="slider-btn slider-prev">
+                        ←
+                    </button>
+
+                    <div class="slider-wrapper">
+
+                        <div class="slider-track">
+
+                            <article class="slide active">
+
+                                <img src="img/review1.jpg" alt="マークシートに記入している写真">
+
+                                <div class="slide-body">
+                                    <p class="slide-category">TOEIC</p>
+
+                                    <h3 class="slide-title">
+                                        3ヶ月でTOEIC<br>
+                                        650点→820点
+                                    </h3>
+
+                                    <p class="slide-text">
+                                        毎日の学習時間を記録することで、
+                                        勉強習慣が身につきました。
+                                    </p>
+                                </div>
+
+                            </article>
+
+                            <article class="slide">
+
+                                <img src="img/review2.jpg" alt="受験勉強をする高校生">
+
+                                <div class="slide-body">
+                                    <p class="slide-category">受験勉強</p>
+
+                                    <h3 class="slide-title">
+                                        学習計画を立てて<br>
+                                        第一志望に合格
+                                    </h3>
+
+                                    <p class="slide-text">
+                                        タスク管理機能のおかげで、
+                                        やるべきことが明確になりました。
+                                    </p>
+                                </div>
+
+                            </article>
+
+                            <article class="slide">
+
+                                <img src="img/review3.jpg" alt="資格取得を目指す社会人">
+
+                                <div class="slide-body">
+                                    <p class="slide-category">資格取得</p>
+
+                                    <h3 class="slide-title">
+                                        忙しい社会人でも<br>
+                                        毎日学習を継続
+                                    </h3>
+
+                                    <p class="slide-text">
+                                        学習記録を振り返ることで、
+                                        モチベーションを維持できました。
+                                    </p>
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                    </div>
+
+                    <button class="slider-btn slider-next">
+                        →
+                    </button>
+
+                </div>
+
+                <div class="slider-dots">
+                    <button class="dot active"></button>
+                    <button class="dot"></button>
+                    <button class="dot"></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq section" id="faq">
+            <div class="inner">
+
+                <div class="section-heading">
+                    <p class="section-subtitle">FAQ</p>
+                    <h2 class="section-title">よくある質問</h2>
+                </div>
+
+                <div class="faq-list">
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            無料で使えますか？
+                        </button>
+
+                        <div class="faq-answer">
+                            <p>
+                                基本機能は無料で利用できます。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            スマホでも利用できますか？
+                        </button>
+
+                        <div class="faq-answer">
+                            <p>
+                                PC・タブレット・スマホに対応しています。
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--モーダル-->
+        <!-- 英語 -->
+        <div class="modal modal-english">
+
+            <div class="modal-content">
+
+                <button class="modal-close">×</button>
+
+                <p class="modal-category">英語</p>
+
+                <h3 class="modal-title">
+                    英単語帳 3章まで復習
+                </h3>
+
+                <div class="modal-info">
+                    <p>学習時間：45分</p>
+                    <p>学習日：2026.06.01</p>
+                </div>
+
+                <div class="modal-text">
+                    <h4>学習内容</h4>
+                    <p>
+                        英単語帳の第1章〜第3章を復習。
+                    </p>
+
+                    <h4>次回やること</h4>
+                    <p>
+                        第4章〜第5章を学習する。
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- 数学 -->
+        <div class="modal modal-math">
+
+            <div class="modal-content">
+
+                <button class="modal-close">×</button>
+
+                <p class="modal-category">数学</p>
+
+                <h3 class="modal-title">
+                    数ⅠA 二次関数の問題演習
+                </h3>
+
+                <div class="modal-info">
+                    <p>学習時間：60分</p>
+                    <p>学習日：2026.05.30</p>
+                </div>
+
+                <div class="modal-text">
+                    <h4>学習内容</h4>
+                    <p>
+                        二次関数のグラフと最大値・最小値を演習。
+                    </p>
+
+                    <h4>次回やること</h4>
+                    <p>
+                        場合の数と確率を学習する。
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- 世界史 -->
+        <div class="modal modal-history">
+
+            <div class="modal-content">
+
+                <button class="modal-close">×</button>
+
+                <p class="modal-category">世界史</p>
+
+                <h3 class="modal-title">
+                    共通テスト対策 古代文明まとめ
+                </h3>
+
+                <div class="modal-info">
+                    <p>学習時間：30分</p>
+                    <p>学習日：2026.05.29</p>
+                </div>
+
+                <div class="modal-text">
+                    <h4>学習内容</h4>
+                    <p>
+                        メソポタミア文明・エジプト文明を整理。
+                    </p>
+
+                    <h4>次回やること</h4>
+                    <p>
+                        ギリシャ文明とローマ文明を復習する。
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+    <button class="page-top">
+        ↑
+    </button>
+
+    <footer class="footer">
+        <div class="inner">
+            <p class="copyright">
+                © YourStudyLog
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
