@@ -31,11 +31,11 @@ faqItems.forEach((faqItem) => {
 /*------- モーダルウィンドウ --------*/
 
 const closeBtns = document.querySelectorAll('.modal-close');
-const studyLogCards = document.querySelectorAll('.study-log-card');
+const howToUseItems = document.querySelectorAll('.how-to-use-item');
 const modals = document.querySelectorAll('.modal');
 
-studyLogCards.forEach((studyLogCard, i) => {
-    studyLogCard.addEventListener('click', () => {
+howToUseItems.forEach((howToUseItem, i) => {
+    howToUseItem.addEventListener('click', () => {
         modals[i].classList.add('open');
     })
 });
