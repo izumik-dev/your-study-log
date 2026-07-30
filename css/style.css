@@ -538,6 +538,10 @@ review
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 
     transition: 0.3s;
+
+    color: #222;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .slider-btn:hover {
@@ -599,6 +603,10 @@ faq
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    color: #222;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 /* + アイコン */
@@ -641,6 +649,10 @@ page-top
     opacity: 0;
     visibility: hidden;
     transition: 0.3s;
+
+    color: #222;
+    appearance: none;
+    -webkit-appearance: none;
 
 }
 

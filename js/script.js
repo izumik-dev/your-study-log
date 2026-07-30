@@ -28,6 +28,7 @@ faqItems.forEach((faqItem) => {
     });
 });
 
+
 /*------- モーダルウィンドウ --------*/
 
 const closeBtns = document.querySelectorAll('.modal-close');
@@ -62,6 +63,8 @@ modals.forEach((modal) => {
         }
     });
 });
+
+
 
 /*---------- タブ切り替え ------------*/
 const featureCards = document.querySelectorAll('.feature-card');
@@ -177,6 +180,7 @@ pageTopBtn.addEventListener('click', () => {
 })
 
 /*---------- fade-in ------------*/
+
 const fadeItems = document.querySelectorAll('.fade-in');
 
 const observer = new IntersectionObserver((entries)=>{
